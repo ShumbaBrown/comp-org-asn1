@@ -139,7 +139,7 @@ end_program:
 
 valid:
     		add $a0, $zero, $s0											# Load sum in syscall arguement.
-    		li $v0, 1																# Load print interger syscall command.
+    		li $v0, 36																# Load print interger syscall command.
     		syscall
     		jal end_program													# End program
 
